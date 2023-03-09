@@ -1,0 +1,8 @@
+
+<!-- The local variable approach is straightforward. But it is limited because the parent-child wiring must be done entirely within the parent template. The parent component itself has no access to the child. -->
+
+<h3>Countdown to Liftoff (via local variable)</h3>
+<button type="button" (click)="timer.start()">Start</button>
+<button type="button" (click)="timer.stop()">Stop</button>
+<div class="seconds">{{timer.seconds}}</div>
+<app-countdown-timer #timer></app-countdown-timer>
