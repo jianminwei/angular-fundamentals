@@ -1,0 +1,7 @@
+
+Angular documentation section:
+
+1. Component interaction
+
+    https://angular.io/guide/component-interaction
+
